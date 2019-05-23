@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'bloomer';
+  src: url('../fonts/bloomer.otf');
+}
+
+body {
+  background-color: #552503;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#canvas {
+  background-color: white;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+#play-button {
+  font-family: 'bloomer';
+  color: #e95201;
+  background-color: #ecdc01;
+  border: solid 2px #0000006e;
+  font-size: 83px;
+  letter-spacing: 7px;
+  border-radius: 29px;
+  position: absolute;
+  transform: translateY(-10%);
+  box-shadow: 0px 14px 17px #000000c9;
+  transition: all .15s linear 0s;
+  padding: 4px 35px;
+}
+
+#play-button:hover {
+  cursor: pointer;
+  color: #d45201;
+  background-color: #ecc601;
+  box-shadow: 0px 20px 25px #000000c9;
+  transition: all .15s linear 0s;
+}
